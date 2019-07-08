@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>latitude_hw</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!---Jquery-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+    </script>
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="Latitude_css.css"> 
+</head>
+<body>
+                    <!--Header-->
+    <!----div class="page-header"-->           
+           <!---- h1Latitude/h1-->
+    </div>
+    <!---Navigation Bar-->
+    <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </div>
+          
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">Comparison</a></li>                    
+                  <li><a href="#">Data</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Max Temperature</a></li>
+                      <li><a href="#">Humidity</a></li>
+                      <li><a href="#">Wind Speed</a></li>
+                      <li><a href="file:///C:/Users/pk949/Documents/HW_Web_Visualization/Cloudiness_pg.html">Cloudiness</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                    <section id="title">Latitude <a href="Latitude_css.css" class="navbar-link"></a></p>
+
+                        <p class="navbar-text navbar-right">
+                  </form>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+    
+          <!---All content goes here-->
+    <div class="container">
+        
+        <!--Row 1-->
+        <h3 class="text-left">Latitude vs X</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <section id="main-bio">
+                    <section id="figure">
+                        <h2 id="bio-name"></h2>
+                        <img id="bio-image" src="C:\Users\pk949\Documents\HW_Web_Visualization\Latitude vs. Max Temp_fig1.png" alt="weather_scatter">
+                    </section>
+                    <p>The purpose of the project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled the data from the OpenWeatherMap API to assemble a dataset on 500 cities.</p> 
+                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of weather vs latitude.  Factors we looked at included: temparature, cloudiness, wind speed and humidity.  This site provided the source data and visualizations created as part of the analysis as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                </section>
+            </div>
+            <h4 class="text-left">Visualizations</h4>
+            <div class="row">
+                    <div class="col-xs-6 col-md-2">
+                      <a href="#" class="thumbnail">
+                        <img src="C:\Users\pk949\Documents\HW_Web_Visualization\Latitude vs. Max Temp_fig1.png" alt="...">
+                      </a>
+                    </div>
+                    <div class="col-xs-6 col-md-2">
+                      <a href="#" class="thumbnail">
+                        <img src="C:\Users\pk949\Documents\HW_Web_Visualization\Latitude vs. Humidity_Fig2.png" alt="...">
+                      </a>
+                      <!-- Force next columns to break to new line -->
+            </div>
+    </div.class>
+    <div class="container">        
+        <div class="row">
+                <div class="col-xs-6 col-md-2">
+                    <a href="#" class="thumbnail">
+                    <img src="C:\Users\pk949\Documents\HW_Web_Visualization\Latitude vs. Cloudiness_Fig3.png" alt="...">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-2">
+                    <a href="#" class="thumbnail">
+                    <img src="C:\Users\pk949\Documents\HW_Web_Visualization\Latitude vs. Windspeed_Fig4.png" alt="...">
+                    </a>
+                </div>
+        </div>
+    </div.class>
+</body>
+<footer>
+        <p>@not copyrighted Bootcamp 2019</p>
+</footer>
+</html>
