@@ -1,0 +1,142 @@
+/*
+ First External CSS Stylesheet
+ */
+
+/* Styling for HTML elements */
+body {
+    padding: 20;
+    margin: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+    line-height: 150%;
+    color: black;
+    background:white;
+  }
+
+  header {
+    background: yellow;
+  }
+
+  #navbar-form {
+    font-size: 100px;
+    color:black;
+    
+  }
+  
+  h1 {
+    padding: 20px 0;
+    margin: 50px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: red;
+    text-align: left;
+  }
+  
+  h2 {
+    font-size: 12px;
+    color:black;
+  }
+  h3 {
+    font-size: 30px;
+    color: #5191fd;
+    margin-left: 80px;
+  }
+  h4 {
+    font-size: 20px;
+    color: #5191fd;
+  }
+  h5 {
+    font-size: 25px;
+    color: #5191fd;
+  }
+  h6 {
+    font-size: 18px;
+    color: black;  
+    margin-left: 180px;
+  }
+  a {
+    color:black;
+  }
+  
+  /* Selecting elements by class */
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  
+  /* Selecting elements by ID */
+  #main-bio,
+  #bio-image {
+    float: left;
+  }
+
+  #figure {
+    position: relative;
+  }
+
+  #figure2 {
+    position: relative;
+  }
+  
+  #bio-name {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+  }
+
+  #bio-name2 {
+    position: center;
+    top: 150px;
+    left: 30px;
+  }
+  
+  #main-bio {
+    width: 100%;
+  }
+  
+  #contact-info {
+    width: 30%;
+  }
+  
+  #bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
+  #bio-image2 {
+    width: 700px;
+    height: 500px;
+    margin-right: 20px;
+  }
+
+
+  #thumbnail {
+    position: absolute;
+    size: relative;
+    left: 30px;
+  }
+
+  #title {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background:  #5191fd;
+    border-radius: 3px;
+    color: #fff;
+  }
+
+  #navbar-header {
+    position: center;
+    size: 12px;
+    color: #d21034;
+  }
+
+
+  footer {
+    padding: 10px;
+    background:  #5191fd;
+    color: #fff;
+    text-align: center;
+    position: relative;
+  }
